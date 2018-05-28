@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="_level01static" tilewidth="16" tileheight="16">
+  <image source="tilesets/tileset01.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="501" name="tileset02" tilewidth="16" tileheight="16">
+  <image source="tilesets/tileset02.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="1001" name="tileset03" tilewidth="16" tileheight="16">
+  <image source="tilesets/tileset03.png" width="320" height="336"/>
+ </tileset>
+ <layer name="background" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7WYy49URRSHq3pG5DEDiiBEYQaYGUAhOtMNToOgRKFbHeSZgEwzIeCb1wzG+GRhAgkLfCWQ4MKNK3fsWPBaYKKjibw0Jgj8BYDgzrAA+Sq3Kn04c+t2o8ziS1XdR9evz++cc7vvA8aYkcPIqMix0XXMx8BT8DhMganQMszzeq99DJ72+tzYCV2Qj8zT6IFl95lB+FnoCmPBny9BOTKXnLTGNOWMWcJ8gacdOvy8QxzXhOuKfn0B/oSLcAkuwwvwotK3AXqhovRpbVpfh0fqaxdrObYLXVfgKlyDv+A63IC/YR2sV/p2ZHiZ5a/WFzToOBXF/Bbchn/B8F0t5KABGm26v07fRmiCZhjraY6Mm4Q+7ZvU0sR+zTAWxsFD8DCMh0dgAkyER2GSTbz5x2k1KfnXaEwfbFTjHtgn2Att/p5YXrWwRytMg+kwA9qgHTpgJsyC2fAEPAlzIvo6lb4B2CXG9+EHwXt16MuzRwHmwXx4BrqhCAtgITwLi2AxPAfP2+Qztb9an45fmr5uf0/QE3wuKr0vsefL8Ar0wHJ4FVbASlgFq2ENrPX6dP2e8rg90+J3CL4VfNNYrY+gJ2gqRnTKmt6Mji3wOrwBb8Jb8LbXp+t3smdA1YecZ9WH1CL7iK5jGesP0PIhfAQfwyfwKexOqd+sPhJ7hgR//w/70fI5fAFfwlfwtR3qr9vP9Zed4l79/JBjl4916EF9Pta16It406TW2l+3X3h+bDB3P0vk8TCGuAZcLv7O9/4ugz9sUvM3bW3S/A3x2yHm/ab6jAvx61XroK9TfIcf2eMnGPT5XmIs2yQn3P7v0Nzeha0wnedkK0zLJfObEX+PcvwYHLdJ3CoihvXo+8VW9YVzYd3rPtMm17n9d6Mrj5ZtjNvhM7/Oe31p/p7m+Bk4a5O49YsYhr3SOOd/K8w1Q/XJ0T0XXI8YybUlaIFf0XUazsABONiQ7m9B5dO9IPXFrikofXnlqZt/3xD3t7kGff/hXOipYe3qcpz3tyRiGHQeb0iOpflbq/baTLw/xs6dsAldwp9Qvy5+oTelof09Yqu5Imsv5H+331P3Rqkvq2eWxeeE+BVyd/eUqWKt/T1ih/a8sD6p8l9eJ/Wl9cxzcB5+M9U6D/Erqxws16hf2fNkD5T6dG+U+vT9O9Ux6a+LX0Xpq+Sq+Zflb1l5tDTiYVlp1/9Zymoe/M3Ku3ykfrU+mWevifyTHlZSvA/n5DVhLuMXy7tY/Wbl3/aIh9IzfU5eI/3tNkN7n8u7fnrLgOh/2t/DNv4fveA/txChTa2zermrj1JK3u1B295If37QDO87mNj7l6x3MCO8v+43nHz3Uc+7kXt5x6Lvk+ey9nFjK9wB+728XsASAAA=
+  </data>
+ </layer>
+ <layer name="walls" width="40" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC81YW47CMAwk9z9G9w5wB7hD9gMJPkqBtgdYV2SkyMrDTuoVI43Sh5sMjmOHDO5w+CF64q+gldigvQfifghjbXwSX8Q3cU7cw/ZIPBEX4ipoJTZooQ/3GOsk0AfbM/FCbMGj8TsJoAu+/zZAF3z/beCx0oK74e/C+uDxd3M6WqMn/izXB9Azv5b64DfkmRZY6oPfePxNijEt9WF98PgbXJqb3SNBK/C6pgHq1n/Uj5b4g74pqqc+9JXzP3jJ1F7+DPPaU39jSPVJcxnmda/668P4NUhjCetjr/q79TMK+pHOFeKuJ/9ZAnG3V/ztDb4XH0O+GNl1qcW1z7wD8EwzV6k9eYm+kMMXhf/juZpdnnx/VRtjKejzCn3SXAFfx/toKXr8J80Vsd9W5RgcpW+v7sNjsJH6j9ePmj7NHHJtsca1EHNzNAavH5r469EnzWW8fvT4L/cupU+7PlrWr+Ydjz/t+ojPVayYOsOpnW/w/+eWTJ3h1PTB9g+thxCOwBIAAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="40" height="30">
+  <object name="Ripley" type="Ripley" x="52" y="397" width="32" height="32"/>
+  <object name="Energy" type="Energy" x="50" y="339" width="16" height="16"/>
+  <object name="BackVerticalDoor" type="BackVerticalDoor" x="160" y="352" width="16" height="32"/>
+  <object name="FrontVerticalDoor" type="FrontVerticalDoor" x="272" y="384" width="16" height="32"/>
+  <object name="Locker" type="Locker" x="32" y="368" width="16" height="16"/>
+  <object name="Body" type="Body" x="206" y="323" width="64" height="48"/>
+  <object name="Reactor" type="Reactor" x="367" y="367" width="80" height="80"/>
+  <object name="Cooler" type="Cooler" x="207" y="192" width="32" height="32"/>
+  <object name="Life" type="Life" x="113" y="114" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="175" y="320" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="240" y="418" width="16" height="16"/>
+  <object name="AccessCard" type="AccessCard" x="316" y="422" width="16" height="16"/>
+  <object name="LockerH" type="LockerH" x="304" y="240" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="90" y="200" width="16" height="16"/>
+  <object name="Money" x="88" y="339" width="16" height="16"/>
+  <object name="Money" x="322" y="274" width="16" height="16"/>
+  <object name="Money" x="76" y="272" width="16" height="16"/>
+  <object name="HorizontalDoor" type="HorizontalDoor" x="368" y="304" width="32" height="16"/>
+  <object name="Energy" type="Energy" x="113" y="158" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="160" y="38" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="304" y="104" width="16" height="16"/>
+  <object name="Rocket" type="Rocket" x="168" y="134" width="65" height="20"/>
+  <object name="Ammo" type="Ammo" x="425" y="282" width="16" height="16"/>
+  <object name="Energy" type="Energy" x="294" y="182" width="16" height="16"/>
+  <object name="Money" x="33" y="263" width="16" height="16"/>
+  <object name="Money" x="267" y="182" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="89" y="372" width="16" height="16"/>
+  <object name="VDoor_strong" type="VDoor_strong" x="240" y="48" width="16" height="32"/>
+  <object name="Alien" type="Alien" x="39" y="208" width="32" height="32"/>
+  <object name="Alien" type="Alien" x="111" y="43" width="32" height="32"/>
+  <object name="Alien" type="Alien" x="109" y="243" width="32" height="32"/>
+  <object name="Alien" type="Alien" x="347" y="249" width="32" height="32"/>
+  <object name="Monster" type="Monster" x="468" y="38" width="112" height="162"/>
+  <object name="Hole" type="Hole" x="344" y="161" width="32" height="32"/>
+  <object name="Alien" type="Alien" x="182" y="409" width="32" height="32"/>
+  <object name="WaitingAlien" type="Alien" x="304" y="373" width="32" height="32"/>
+  <object name="Alien" type="Alien" x="224" y="254" width="32" height="32"/>
+  <object name="Switch" type="Switch" x="481" y="431" width="16" height="16"/>
+  <object name="HotD" type="HotD" x="288" y="272" width="16" height="32"/>
+  <object name="Mine" type="Mine" x="160" y="257" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="391" y="250" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="404" y="48" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="378" y="124" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="437" y="161" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="506" y="267" width="16" height="16"/>
+  <object name="Mine" type="Mine" x="563" y="267" width="16" height="16"/>
+  <object name="Energy" type="Energy" x="534" y="237" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="472" y="235" width="16" height="16"/>
+  <object name="HotD" type="HotD" x="449" y="272" width="16" height="32"/>
+  <object name="Laser" type="Laser" x="497" y="336" width="16" height="48"/>
+  <object name="Laser" type="Laser" x="560" y="336" width="16" height="48"/>
+  <object name="Laser" type="Laser" x="528" y="400" width="16" height="48"/>
+  <object name="Alien" type="Alien" x="42" y="49" width="32" height="32"/>
+  <object name="Ammo" type="Ammo" x="87" y="114" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="137" y="115" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="138" y="158" width="16" height="16"/>
+  <object name="Ammo" type="Ammo" x="87" y="158" width="16" height="16"/>
+  <object name="Laser" type="Laser" x="65" y="112" width="16" height="48"/>
+  <object name="ExitDoor" type="ExitDoor" x="625" y="96" width="16" height="32"/>
+  <object name="WaitingAlien" type="Alien" x="304" y="329" width="32" height="32"/>
+ </objectgroup>
+</map>
